@@ -1,0 +1,52 @@
+.container{
+width: 75%;
+text-align: center;
+border: 3px solid black;
+margin:  auto;
+}
+.btn{
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    padding: 1px;
+    border: 1px solid black;
+    flex-wrap : wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-blackjack-row-1{
+    background-image: url("./pics&sounds/background-image-2.PNG") ;
+    color: blanchedalmond;
+}
+.flex-blackjack-row-1 div{
+    border: 2px solid black;
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    flex: 1;
+}
+
+ table,th,td {
+    border: 2px solid black;
+    padding: 5px;
+    border-spacing: 0px;
+   border-collapse: collapse;
+    
+}
+
+
+.btn-hit{
+    background-color: rgb(129, 229, 233);
+    margin: 2px;
+}
+.btn-stand{
+    background-color: yellow;
+    margin: 2px;
+}
+.btn-deal{
+    background-color: red;
+}
